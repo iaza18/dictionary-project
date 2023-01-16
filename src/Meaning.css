@@ -1,8 +1,8 @@
 .Meaning h3 {
     font-family: 'Zilla Slab', serif;
-    font-size: 30px;
+    font-size: 32px;
     line-height: 1.5;
-    font-weight: 500;
+    font-weight: 600;
     margin-bottom: 20px;
   }
 
@@ -18,7 +18,7 @@
   }
 
   .Meaning .example {
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 300;
 
   }
@@ -33,10 +33,10 @@
       text-align: center;
     }
     .Meaning li.definition {
-      font-size: 14px;
+      font-size: 16px;
       margin-bottom: 15px;
     }
     .Meaning .example {
-      font-size: 12px;
+      font-size: 14px;
     }
   }

@@ -10,7 +10,15 @@ export default function App() {
           <Dictionary />
         </main>
         <footer className="App-footer text-center">
-          <small>This project was coded by Iana Zavoloka</small>
+          This project was coded by Iana Zavoloka and is{" "}
+          <a
+            href="https://github.com/iaza18/dictionary-project" 
+            target="_blank"
+            rel="noopener noreferrer"
+            className="link"
+          >
+            open-sourced on GitHub
+          </a>
         </footer>
       </div>
     </div>
