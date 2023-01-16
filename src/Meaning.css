@@ -1,0 +1,42 @@
+.Meaning h3 {
+    font-family: 'Zilla Slab', serif;
+    font-size: 30px;
+    line-height: 1.5;
+    font-weight: 500;
+    margin-bottom: 20px;
+  }
+
+  .Meaning ul {
+    margin: 0;
+    padding: 0;
+  } 
+ 
+  .Meaning li.definition {
+    list-style: none;
+    margin-bottom: 20px;
+    font-size: 18px;
+  }
+
+  .Meaning .example {
+    font-size: 16px;
+    font-weight: 300;
+
+  }
+
+  @media (max-width: 700px) {
+    .Meaning {
+      text-align: justify;
+    }
+    .Meaning h3 {
+      font-size: 22px;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+    .Meaning li.definition {
+      font-size: 14px;
+      margin-bottom: 15px;
+    }
+    .Meaning .example {
+      font-size: 12px;
+    }
+  }

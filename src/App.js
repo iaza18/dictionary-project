@@ -6,11 +6,11 @@ export default function App() {
     <div className="App">
       <div className="container">
         <main>
-          <h1> Dictionary</h1>
+         
           <Dictionary />
         </main>
-        <footer className="text-center">
-          Coded by Iana Zavoloka
+        <footer className="App-footer text-center">
+          <small>This project was coded by Iana Zavoloka</small>
         </footer>
       </div>
     </div>

@@ -29,12 +29,20 @@ function handleResponse(response){
 
     return (
     <div className="Dictionary">
-        <form onSubmit={search} className="d-flex m-4" role="search">
-            <input className="form-control me-2 shadow-sm"
+        <div className="form">
+        <h1> Dictionary</h1>
+          <h2>What word do you want to look up?</h2>
+        <form onSubmit={search} role="search">
+            <input className="form-control shadow-sm"
             type="search" 
             placeholder="Search"
+            autoFocus="On"
             onChange={handleKeywordChange} />
         </form>
+        <div className="hint">
+        Suggested words: meditation, yoga, book, friendship... 
+        </div>
+        </div>
         <Results results={results} />
     </div>
     );  

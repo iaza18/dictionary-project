@@ -1,0 +1,25 @@
+.Results section {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 30px 40px;
+    border-radius: 16px;
+    box-shadow: 0 5px 15px rgb(0, 0, 0, 0.1);
+    margin: 20px 0;
+   }
+
+.Results h2{
+font-family: 'Zilla Slab', serif;
+font-weight: 600;
+font-size: 40px;
+line-height: 1.2;
+}
+
+@media (max-width: 700px) {
+    
+    .Results section {
+        padding: 20px 30px;
+    }
+    .Results h2 {
+      font-size: 28px;
+    }
+    
+  }
