@@ -17,7 +17,7 @@ export default function App() {
             rel="noopener noreferrer"
             className="link"
           >
-            open-sourced on GitHub
+            open-sourced on GitHub ©
           </a>
         </footer>
       </div>

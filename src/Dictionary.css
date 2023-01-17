@@ -1,3 +1,22 @@
+.Dictionary h1 {
+  text-align: center;
+  font-size: 64px;
+  font-family: 'Zilla Slab', serif;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  color: white;
+}
+
+.Dictionary h2.text-header {
+  text-align: center;
+  font-size: 36px;
+  font-family: 'Zilla Slab', serif;
+  font-weight: 600;
+  margin-bottom: 15px;
+  color: white;
+}
+
 .Dictionary .form .form-control {
    color: #333;
    padding: 6px 4px;
@@ -9,11 +28,21 @@
 .Dictionary .hint {
     text-align: center;
     font-size: 14px;
+    color: white;
+    font-weight: 500;
 }
 @media (max-width: 700px) {
     
+    .Dictionary h1{
+      font-size: 52px;
+      margin-bottom: 30px;
+    }
+    .Dictionary h2 {
+      font-size: 24px;
+  }
     .Dictionary .form .form-control {
       max-width: 400px;
     }
+
 
   }

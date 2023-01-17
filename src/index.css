@@ -1,3 +1,10 @@
 code {
   font-family: 'Zilla Slab', serif;
 }
+body {
+  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/063/211/original/pexels-yuliia-tretynychenko-11761083.jpg?1673914490");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 20px;
+
+}

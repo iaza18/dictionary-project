@@ -1,49 +1,18 @@
-
-.App {
-  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/063/030/original/pexels-jess-bailey-designs-762686.jpg?1673812598");
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding: 20px;
-}
-.App h1 {
-  text-align: center;
-  font-size: 64px;
-  font-family: 'Zilla Slab', serif;
-  font-weight: 700;
-  margin-top: 20px;
-  margin-bottom: 50px;
-}
-
-.App h2 {
-  text-align: center;
-  font-size: 36px;
-  font-family: 'Zilla Slab', serif;
-  font-weight: 500;
-  margin-bottom: 15px;
-}
-
 .App footer {
   font-family: 'Zilla Slab', serif;
+  font-size: 18px;
   font-weight: 500;
   color: white;
   margin-top: 30px;
 }
 
-.App a {
+.App a.link {
   text-decoration: none;
-  color: #d56748;
+  color: white;
+  font-weight: 700;
 }
 
 .App a:hover {
   color: #5f646d;
 }
 
-@media (max-width: 700px) {
-  .App h1{
-    font-size: 52px;
-    margin-bottom: 30px;
-  }
-  .App h2 {
-    font-size: 24px;
-}
-}
